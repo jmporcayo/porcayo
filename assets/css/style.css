@@ -1,0 +1,61 @@
+html {
+    margin: 50px;
+    background-image: url(../images/Asset\ 2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.nav{
+    list-style:none;
+    margin: 130px;
+    padding:0;
+    text-align:center;
+    
+}
+.nav li{
+    display:inline;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: red;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+    opacity: 0.8;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.grid-container {
+    margin: 125px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: none;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+ #email {
+     text-align: center;
+ }
+
+ article {
+     text-align: center;
+ }
