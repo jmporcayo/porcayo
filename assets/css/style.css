@@ -59,3 +59,68 @@ li {
  article {
      text-align: center;
  }
+
+
+
+ @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+        html {
+            margin: none;
+            background-image: url(../images/igpro4.JPG);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+        
+        .nav{
+            list-style:none;
+            margin-top: 70px;
+            padding-top:40px;
+            text-align:center;
+            
+        }
+        .nav li{
+            display:inline;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .nav a{
+            display:inline-block;
+            padding:10px;
+            text-decoration: none;
+            color: red;
+            
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0%;
+            opacity: 0.8;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        
+        
+        
+        .grid-container {
+            margin: auto;
+            display: block;
+            grid-template-columns: auto auto auto;
+            background-color: none;
+            padding: auto;
+          }
+          .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: none;
+            padding: auto;
+            font-size: 30px;
+            text-align: center;
+          }
+    }
+
+
+    
